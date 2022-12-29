@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-gap: 35px;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 90px 400px repeat(4, 60px 500px);
+    grid-template-rows: 90px 400px repeat(3, 60px 500px);
 }
 
 .container div {
@@ -53,6 +53,10 @@ h1 {
     text-decoration: none;
 }
 
+.back-button:link{
+    color: rgb(235, 235, 235);
+}
+
 .back-button:visited{
     color: #b29700;
 }
@@ -84,7 +88,7 @@ h1 {
     background: rgba(215, 215, 215, 0.19);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(37px);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(7px);
     border: 2px solid #b29700;
 }
@@ -117,6 +121,7 @@ h1 {
 #prog_Projects{
     grid-row: 4/ 5;
     grid-column: 2 / 5;
+    border-radius: 16px;
 }
 
 .list-items{
@@ -134,8 +139,9 @@ h1 {
         background: rgba(215, 215, 215, 0.19);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(37px);
+        backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(7px);
+            
         border: 2px solid #b29700;
 }
 
@@ -166,4 +172,5 @@ div>h2 {
 #id_Projects {
     grid-row: 6/ 7;
     grid-column: 2 / 5;
+    border-radius: 16px;
 }
