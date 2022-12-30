@@ -1,0 +1,97 @@
+
+
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+#homeNav {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#homeNav .nav-link {
+    color: black;
+}
+
+#homeNav .nav-link:hover {
+    color: red;
+    }
+
+#jumboHeader{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    backdrop-filter: blur(15px);
+    border: solid 3px black;
+     
+}
+
+.jumbotron {
+    position: relative;
+    background:none;
+    height: 400px;
+  }
+
+.jumbotron:after {
+      content : "";  
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url(projectimages/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      opacity : 1.0;
+      z-index: -1;
+  }
+
+  #textInfo1{
+      height: 300px;
+  }
+
+  
+
+  .carousel-item {
+      width: 100%;
+      height: 380px;
+   }
+
+   .carousel-caption{
+    color: rgba(255, 255, 255);
+    background: rgba(0, 0, 0, 0.15);;
+   }
+
+   .divider{
+       border-bottom: 1px ridge;
+   }
+
+   .infoFooter{
+       background-color: rgba(237, 237, 237, 0.888);
+       padding: 20px 0;
+   }
+
+   .btn-link, .btn-social-icon, .styled{
+       color:black;
+   }
+
+   .btn-link:hover, .btn-social-icon:hover, .styled:hover{
+    color:red;
+    text-decoration: none;
+}
+
+.navbar.scrolled {
+    background-color: rgba(237, 237, 237, 0.9);
+}
+
+.btn-secondary {
+    background-color: rgb(217, 217, 217);
+    color: black;
+}
+
+.modal-header {
+    background-color: rgb(217, 217, 217);
+}
+
