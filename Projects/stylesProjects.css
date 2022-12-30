@@ -126,23 +126,32 @@ h1 {
 
 .list-items{
     display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 500px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
     
-        font-family: Cinzel, serif;
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: bold;
+    font-family: Cinzel, serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
     
-        /* From https://css.glass */
-        background: rgba(215, 215, 215, 0.19);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(7px);
-            
-        border: 2px solid #b29700;
+    /* From https://css.glass */
+    background: rgba(215, 215, 215, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 2px solid #b29700;
+
+    text-decoration: none;
+}
+
+.project {
+    list-style: none;
+}
+
+li > a{
+    text-decoration: none;
 }
 
 #section-2 {
