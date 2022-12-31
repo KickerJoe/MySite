@@ -67,17 +67,17 @@ h1 {
 
 .description {
     grid-column: 2 / 5;
-    height: 375px;
+    height: 300px;
     border-radius: 16px;
     position: relative;
-    top: 10px;
+    top: 3.5rem;
 }
 
 #summary {
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 375px;
+    height: 300px;
 
     font-family: Cinzel, serif;
     text-align: center;
@@ -85,12 +85,13 @@ h1 {
     font-weight: bold;
     
     /* From https://css.glass */
-    background: rgba(215, 215, 215, 0.19);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(235, 235, 235, 0.90);
+    
+    /*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px)*/
     border: 2px solid #b29700;
+    border-radius: 16px;
 }
 
 #summary > p{
@@ -136,12 +137,14 @@ h1 {
     font-weight: bold;
     
     /* From https://css.glass */
-    background: rgba(215, 215, 215, 0.19);
+    background: rgba(235, 235, 235, 0.90);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    
+    /*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);*/
     border: 2px solid #b29700;
+    border-radius: 16px;
 
     text-decoration: none;
 }
